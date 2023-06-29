@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bomb Defuse Game</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap">
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+<div id="bomb">
+    <div id="timerContainer">
+        <div id="timer"></div>
+    </div>
+    <div id="gameContainer">
+    </div>
+    <div id="instruction">
+        請輸入密碼
+    </div>
+    <div id="codeInputContainer">
+        <input id="codeInput" type="text" maxlength="3">
+    </div>
+
+    <div id="messageContainer">
+        <div id="correctMessage" style="display: none;">正確! 炸彈已解除</div>
+        <div id="incorrectMessage" style="display: none;">錯誤! 請重新輸入</div>
+    </div>
+</div>
+</body>
+</html>
